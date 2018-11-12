@@ -12,7 +12,7 @@ cursor.execute('CREATE database akash_python_rest_api')   # Database creation
 
 
 application = Flask(__name__)  # app creation using Flask
-api_rest = Api(app)  # api for the app
+api_rest = Api(application)  # api for the app
 
 
 
